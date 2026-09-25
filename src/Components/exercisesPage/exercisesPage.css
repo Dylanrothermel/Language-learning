@@ -1,0 +1,33 @@
+.exercisesPage, .wordSentence, .explanation, .check{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wordSentence{
+    font-size: 40px;
+}
+
+.explanation{
+    font-size: 20px;
+    gap: 10px;
+}
+
+.exercisesPage input{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.exercisesPage button{
+    background-color: red;
+    color: white;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 60px;
+    min-width: 0;
+    padding: 16px 24px;
+    text-align: center;
+    cursor: pointer;
+}

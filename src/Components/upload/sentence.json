@@ -1,0 +1,171 @@
+[
+    {
+	"sentence": "твоя́ лову́шка для ра́ков гото́ва к вы́лову",
+    	"translation": "your crayfish trap is ready to fish",
+    	"explanation": "ра́ков = plural accusative. гото́ва = short feminine. вы́лову = dative"
+    },{
+	"sentence": "пора́ собира́ть ра́ковые ше́йки",
+    	"translation": "it's time to collect the crayfish meat",
+    	"explanation": "пора́ = nominative. ра́ковые = acc. plural(not alive)"
+    },{
+	"sentence": "живо́тные с твое́й фе́рмы скуча́ют по тебе́",
+    	"translation": "the farm animals miss you",
+    	"explanation": "живо́тные = nom. plural. твое́й = gen. fem."
+    },{
+	"sentence": "твоя́ ути́ная лову́шка гото́ва к вы́лову",
+    	"translation": "your duck trap is ready to fish",
+    	"explanation": "вы́лову = noun"
+    },{
+	"sentence": "пора́ дои́ть коро́в",
+    	"translation": "it's time to milk the cows",
+    	"explanation": "коро́в = either acc. or gen."
+    },{
+	"sentence": "мэрри-строи́тельница ско́ро уе́дет",
+    	"translation": "mary the builder will leave soon",
+    	"explanation": "уе́дет = уе́хать"
+    },{
+	"sentence": "торопи́сь, е́сли всё ещё хо́чешь порабо́тать над диза́йном фе́рмы",
+    	"translation": "hurry up, if you still want to work on your farm's design",
+    	"explanation": "торопи́сь = торопи́ться. хо́чешь = хоте́ть. диза́йном = inst. sing."
+    },{
+	"sentence": "собы́тие, кури́ная доли́на. начало́сь",
+    	"translation": "the event chicken valley has begun",
+    	"explanation": "начало́сь = past neuter. нача́ться"
+    },{
+	"sentence": "все созре́ло, пора́ собира́ть урожа́й",
+    	"translation": "everything's mature, it's time to collect the crops",
+    	"explanation": ""
+    },{
+	"sentence": "не забу́дь получи́ть ежедне́вный пода́рок",
+    	"translation": "don't forget to claim/get your daily gift",
+    	"explanation": "забу́дь = imperative perfective. забы́ть"
+    },{
+	"sentence": "свечни́к получа́ет звезду́ мастерства́",
+    	"translation": "the candle maker recieved a mastery star",
+    	"explanation": "мастерства = gen."
+    },{
+	"sentence": "макаро́нная ку́хня - строи́тельство завершено́",
+    	"translation": "the pasta kitchen building is finished",
+    	"explanation": ""
+    },{
+	"sentence": "мы пошли́ в кино́",
+    	"translation": "we went to the cinema",
+    	"explanation": "пошли́ = perf. past. пойти´. кино́ = acc. sing."
+    },{
+	"sentence": "мы сиде́ли на после́днем ряду́",
+    	"translation": "we sat in the last row",
+    	"explanation": "Мы (pronoun: we), сиде́ли (verb: past tense, to sit), на (preposition), после́днем (adjective: prepositional, last), ряду́ (noun: prepositional, row)."
+    },{
+	"sentence": "мне бы́ло неинтере́сно смотре́ть его́",
+    	"translation": "it wasn't interesting for me to watch it",
+    	"explanation": "Мне (pronoun: dative), бы́ло (verb: past tense, to be), неинтере́сно (adverb: not interesting), смотре́ть (infinitive: to watch), его́ (pronoun: it)."
+    },{
+	"sentence": "моя́ подру́га засну́ла",
+    	"translation": "my friend fell asleep",
+    	"explanation": ": Моя́ (pronoun: possessive, my), подру́га (noun: nominative, friend), засну́ла (verb: past tense, to fall asleep)."
+    },{
+	"sentence": "фильм шёл три часа́",
+    	"translation": "the movie lasted three hours",
+    	"explanation": " Фильм (noun: nominative, movie), шёл (verb: past tense, to go/last), 3 (numeral), часа́ (noun: genitive, hour)."
+    },{
+	"sentence": "Мы пошли́ в кино́",
+    	"translation": "We went to the cinema",
+    	"explanation": "Мы (pronoun: we), пошли́ (verb: past tense, to go), в (preposition: to/into), кино́ (noun: accusative, movie/cinema)."
+    },{
+	"sentence": "Фильм нача́лся в 7 ве́чера",
+    	"translation": "The movie started at seven in the evening",
+    	"explanation": "Фильм (noun: nominative, movie), нача́лся (verb: past tense, to start), в (preposition), 7 (numeral: seven), ве́чера (noun: genitive, evening)."
+    },{
+	"sentence": "Наконе́ц-то фильм зако́нчился",
+    	"translation": "Finally, the movie ended",
+    	"explanation": " Наконе́ц-то (adverb: finally), фильм (noun: nominative), зако́нчился (verb: past tense, to end)."
+    },{
+	"sentence": "Бы́ло 10:00 ве́чера",
+    	"translation": "It was ten in the evening",
+    	"explanation": " Бы́ло (verb: past tense, to be), 10 (numeral), ве́чера (noun: genitive, evening)."
+    },{
+	"sentence": "Мы с Мари́ей вы́шли из кинотеа́тра",
+    	"translation": "Maria and I left the cinema",
+    	"explanation": "Мы (pronoun: we), с (preposition: with), Мари́ей (noun: instrumental, Maria), вы́шли (verb: past tense, to exit), из (preposition: from), кинотеа́тра (noun: genitive, cinema)."
+    },{
+	"sentence": "На у́лице бы́ло темно́",
+    	"translation": "It was dark outside",
+    	"explanation": " На (preposition: on), у́лице (noun: prepositional, street), бы́ло (verb: past tense), темно́ (adverb: dark)."
+    },{
+	"sentence": "Мы вы́звали такси́ и пое́хали домо́й",
+    	"translation": "We called a taxi and went home",
+    	"explanation": "Мы (pronoun), вы́звали (verb: past tense, to call), такси́ (noun: accusative), и (conjunction: and), пое́хали (verb: past tense, to go by transport), домо́й (adverb: home)."
+    },{
+	"sentence": "За́втра мы опять пойдёт в кино́",
+    	"translation": "Tomorrow we will go to the cinema again",
+    	"explanation": "За́втра (adverb: tomorrow), мы (pronoun), опя́ть (adverb: again), пойдёт (verb: future, will go), в (preposition), кино́ (noun: accusative)."
+    },{
+	"sentence": "Мы бу́дем смотре́ть друго́й фильм",
+    	"translation": "We will watch another movie",
+    	"explanation": "Мы (pronoun), бу́дем (verb: future auxiliary, will), смотре́ть (infinitive: to watch), друго́й (adjective: accusative, another), фильм (noun: accusative)."
+    },{
+	"sentence": "Я прие́хала на вокза́л",
+    	"translation": "I arrived at the station",
+    	"explanation": "Uses the feminine past tense verb прие́хала (arrived by transport) and the noun вокза́л in the accusative case"
+    },{
+	"sentence": "У меня́ биле́т на по́езд",
+    	"translation": " I have a ticket for the train",
+    	"explanation": " A common construction У меня́ (At me) is used to indicate possession, followed by the noun биле́т (ticket) and по́езд (train)."
+    },{
+	"sentence": "Я е́ду в го́сти к подру́ге в друго́й го́род",
+    	"translation": "I am going to visit my friend in another city",
+    	"explanation": "Е́ду denotes traveling by vehicle. The phrase в го́сти implies a social visit, requiring the dative case for the person (подру́ге)."
+    },{
+	"sentence": "Я посмотре́ла на табло́",
+    	"translation": "I looked at the board",
+    	"explanation": "Uses the verb посмотре́ла (looked) followed by the preposition на and the accusative case."
+    },{
+	"sentence": "Мой по́езд ещё не прибы́л",
+    	"translation": "My train has not arrived yet",
+    	"explanation": "Uses the negative particle ещё не (not yet) and the verb прибы́л (arrived)."
+    },{
+	"sentence": "Я села́ на скаме́йку и ста́ла ждать",
+    	"translation": "I sat on a bench and started to wait",
+    	"explanation": "Села́ (sat down) takes the accusative скаме́йку; ста́ла (became/started) pairs with the infinitive ждать (to wait)."
+    },{
+	"sentence": "Ря́дом сиде́ли лю́ди",
+    	"translation": "People were sitting nearby",
+    	"explanation": " Ря́дом is an adverb meaning nearby, while сиде́ли is the plural past tense of сиде́ть (to sit)."
+    },{
+	"sentence": "Они́ то́же жда́ли по́езд",
+    	"translation": "They were also waiting for the train",
+    	"explanation": "Demonstrates the usage of то́же (also) and the verb жда́ли (imperfective past)."
+    },{
+	"sentence": "У них бы́ли больши́е чемода́ны",
+    	"translation": " They had big suitcases",
+    	"explanation": " Similar to У меня́, У них indicates possession; бы́ли is the plural past of to be."
+    },{
+	"sentence": "Я услы́шала объявле́ние",
+    	"translation": "I heard an announcement",
+    	"explanation": "Услы́шала (heard) is a perfective verb followed by the object in the accusative case."
+    },{
+	"sentence": "Мой по́езд прибы́л",
+    	"translation": "My train has arrived",
+    	"explanation": "Confirms the arrival of the train using the past tense прибы́л"
+    },{
+	"sentence": "Я взяла́ рюкза́к и пошла́ на платфо́рму",
+    	"translation": "I took my backpack and went to the platform",
+    	"explanation": "Взяла́ (took) and пошла́ (went on foot) are both past tense verbs"
+    },{
+	"sentence": "Там бы́ло мно́го люде́й",
+    	"translation": "There were many people there",
+    	"explanation": "Uses the adverb мно́го (many/much), which requires the noun to be in the genitive case (люде́й)."
+    },{
+	"sentence": "Я зашла́ в свой ваго́н и села́ у окно́",
+    	"translation": "I entered my carriage and sat by the window",
+    	"explanation": "Зашла́ implies entering on foot; у окна́ indicates proximity."
+    },{
+	"sentence": "По́езд пое́хал",
+    	"translation": "The train started moving",
+    	"explanation": "Пое́хал describes the commencement of travel"
+    },{
+	"sentence": "Я смотре́ла в окно́ и ду́мала о подру́ге",
+    	"translation": "I was looking out the window and thinking about my friend",
+    	"explanation": "Смотре́ла and ду́мала are imperfective past verbs, showing ongoing actions during the train ride."
+    }
+]
