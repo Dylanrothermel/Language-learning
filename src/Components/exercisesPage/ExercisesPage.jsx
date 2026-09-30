@@ -70,7 +70,7 @@ const ExercisesPage = () => {
     const check = () => {
         if (data.length === 0) return;
 
-        if(input.toLowerCase == current.translation.toLowerCase) {
+        if(input.toLowerCase() === current.translation.toLowerCase()) {
             setWOr('right')
         } else {
             setWOr('wrong')
@@ -81,14 +81,15 @@ const ExercisesPage = () => {
     <div className='exercisesPage'>
         <div className='wordSentence'>
             <span>{current?.word}</span>
+            <span>{current.pronunciation}</span>
             <span>{current?.sentence}</span>
         </div>
 
         {
             wOr == 'right' ?
                 <div className='explanation'>
-                    <span>Translation: {current?.translation}</span>
-                    <span>Explanation: {current?.explanation}</span>
+                    <span>Translation: {current.translation}</span>
+                    <span>Explanation: {current.explanation}</span>
                 </div>:
                 <div></div>
         }
