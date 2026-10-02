@@ -1,4 +1,4 @@
-.exercisesPage, .wordSentence, .explanation, .check{
+.exercisesPage, .wordSentence, .explanation, .check, .multipleChoice{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +17,7 @@
     background-color: white;
     font-size: 30px;
     margin-top: 10px;
+    max-width: 100%;
 }
 
 .exercisesPage button{

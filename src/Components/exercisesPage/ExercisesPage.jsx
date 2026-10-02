@@ -15,6 +15,8 @@ const ExercisesPage = () => {
     });
     const [input, setInput] = useState('');
     const [wOr, setWOr] = useState('');
+    const [multChoice, setMultChoice] = useState([])
+    const [choice, setChoice] = useState()
     const {batchNumber} = useParams();
     const {ANV} = useParams();
 
@@ -37,7 +39,7 @@ const ExercisesPage = () => {
 
     const sInput = (event) => {
         setInput(event.target.value)
-    }
+    };
 
     const q = () => {
 
@@ -65,7 +67,36 @@ const ExercisesPage = () => {
 
         setInput('');
         setWOr('');
-};
+    };
+
+    const multipleChoice = () => {
+        const mult = data.filter((el) => el.id !== current.id);
+
+        const randomChoices = [...mult]
+            .sort(() => Math.random() - 0.5)
+            .slice(0, 4)
+        
+
+        const choices = [current, ...randomChoices];
+
+        choices.sort(() => Math.random() - 0.5);
+
+        setMultChoice(choices)
+        console.log(choices)
+    };
+
+    const handleMult = (event) => {
+        const sChoice = event.target.value
+
+        setChoice(sChoice);
+
+        if(sChoice === current.translation){
+            setWOr('right')
+        } else {
+            setWOr('wrong')
+        }
+        
+    };
     
     const check = () => {
         if (data.length === 0) return;
@@ -75,11 +106,12 @@ const ExercisesPage = () => {
         } else {
             setWOr('wrong')
         }
-    }
+    };
     
   return (
     <div className='exercisesPage'>
         <div className='wordSentence'>
+            <span>{data.length}</span>
             <span>{current?.word}</span>
             <span>{current.pronunciation}</span>
             <span>{current?.sentence}</span>
@@ -106,6 +138,26 @@ const ExercisesPage = () => {
             <span>{wOr}</span>
         </div>
         <button onClick={() => setWOr('right')}>Show</button>
+
+        <div className='multipleChoice'>
+            <button onClick={() => multipleChoice()}>mult</button>
+            <form onChange={handleMult}>
+                {
+                    multChoice.map((el) => (
+                        <div key={el.id}>
+                            <input type="radio"
+                            id={`${el.translation}`}
+                            name='multipleChoice'
+                            value={`${el.translation}`}
+                            />
+                            <label htmlFor={`${el.translation}`}>{el.translation}</label>
+                        </div>
+                    
+                    ))
+                }
+            </form>
+            
+        </div>
         
     </div>
   )
